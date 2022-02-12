@@ -1,0 +1,183 @@
+
+
+
+form h1 {
+  font-size: 15px;
+  background: #0078C2 none repeat scroll 0% 0%;
+  color: rgb(255, 255, 255);
+  padding: 10px 6px;
+  border-radius: 5px 5px 0px 0px;
+  margin: auto;
+  margin-bottom:20px;  
+  text-shadow: none; 
+  text-align:center;
+}
+
+form {
+  border-radius: 5px;
+  width:60%;
+  margin: 5% 10%;
+  background-color: #FAFAFA;
+  overflow: hidden;
+}
+
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+
+.contentform {
+  padding: 40px 30px;
+}
+
+.bouton-suivant , .bouton-ajouter{
+  color: #FFF;
+  text-align: center;
+  width: 50%;
+  border:0;
+  padding: 10px 25px;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 20px;  
+  margin-left: 25%; 
+  font-size: 18px;
+}
+.bouton-suivant{
+  background-color: #102C58;
+}
+.bouton-ajouter{
+  background-color: #4E953B;
+}
+.bouton-suivant:hover , .bouton-ajouter:hover{
+  background-color: #F5642D
+}
+
+
+
+
+.leftcontact {
+  width:49.5%; 
+  float:left;
+  border-right: 1px dotted #CCC;
+  box-sizing: border-box;
+  padding: 0px 15px 0px 0px;
+}
+
+.rightcontact {
+  width:49.5%;
+  float:right;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 15px;
+}
+
+.label-service{
+  margin-top: 10px;
+  margin-left: 30%;
+  font-size: 15px;
+}
+.label-coutRepas{
+  margin-left: 5%;
+  font-size: 13px;
+}
+.label-calcule-coutRepas{
+  margin-left: 35%;
+  font-size: 20px;
+}
+.label-a4{
+  margin-left: 35%;
+  font-size: 16px;
+}
+.label-periode-titre{
+  margin-top: 0px;
+  margin-left: 20%;
+  font-size: 15px;
+}
+.span-periode{
+  font-size: 15px;
+  color: black;
+  margin-left: 5%;  
+}
+.label-design{
+height: 112px;
+font-size: 15px;
+padding-top: 25px;
+text-align: center;
+}
+
+.line-label{
+  text-decoration-color: white;
+  margin-top: 5.7px;
+  margin-bottom: 12px;
+  margin-left: 25%;
+  width:75%;
+}
+.line-input{
+  margin-top: 12px;
+  margin-bottom: 12px; 
+  margin-right: 25%;  
+  width:75%;  
+}
+.line-2input{
+  margin-top: 12px;
+  margin-bottom: 12px; 
+  margin-right: 25%;  
+  width:90%;  
+}
+
+/*date picker semestre*/ 
+.date-rangepicker {
+  padding: 20px;
+  max-width: 400px;
+}
+
+.datepicker {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.datepicker .datepicker-months .table-condensed > tbody tr > td {
+  padding: 10px;
+}
+.datepicker .table-condensed > tbody tr td > span.active, .datepicker .table-condensed > tbody tr td.active {
+  color: #fff;
+  background-color: #4eb7e6;
+  background-image: none;
+}
+.datepicker .table-condensed > tbody tr td > span.active:hover, .datepicker .table-condensed > tbody tr td.active:hover {
+  background-color: #4eb7e6;
+  background-image: none;
+}
+.datepicker .table-condensed > tbody tr td > span.old, .datepicker .table-condensed > tbody tr td.old {
+  opacity: 0.6;
+}
+.datepicker .table-condensed > tbody tr td > span.quarters {
+  display: inline-block;
+  width: 48%;
+  height: 88px;
+  line-height: 88px;
+  margin: 0;
+  float: none;
+  border-radius: 0;
+  font-size: 24px;
+}
+.datepicker .table-condensed > tbody tr td > span.quarters.active {
+  color: #fff;
+}
+.datepicker .table-condensed > tbody tr td > span.quarters:nth-child(1) {
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.datepicker .table-condensed > tbody tr td > span.quarters:nth-child(2) {
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.datepicker .table-condensed > tbody tr td > span.quarters:nth-child(3) {
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+.datepicker .table-condensed > tbody tr td > span.quarters:nth-child(4) {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+}
